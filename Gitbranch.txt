@@ -1,0 +1,22 @@
+Branches, normally we have branches are master/main by default.
+These branch will hold / contains the project code to deploy / redeploy.
+To get to understand the branches, Let's take an example: Tree 
+The Tree is having the branches, each branch has been settled seperately.
+As like, Repository is having the branches, each branch holds code.
+For example, We have 10 developers, each developer is using the common
+ file to do work on specific funcationality/feature. Like File name:
+ Family.txt. In these file one person wanted to add his personal details
+ in that text file, another person also wanted to add her personal
+ details in that file like wise 10 persons wants to add their personal
+ details in that text file. So, for that ever person has to create their
+ own branch to keep their details in that file. After doing their task
+ they will raise a pull request in remote repository to the teamleader 
+ for review and merging. If everything is fine, then team leader will 
+ merge the code into their branch(which we say main branch).
+To create a branch, we use command:
+git checkout -b "Masthan".
+Let's understand it now, here checkout is not but a jumping from one 
+branch to another so, our current branch is "main". I used checkout
+to jump from main to masthan origin. Here, in that command -b is used
+for creating a branch, so i created a -b "Masthan". So, this branch holds
+my code. Likewise, everone can create their own branches.
